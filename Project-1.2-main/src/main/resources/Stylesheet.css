@@ -1,0 +1,90 @@
+.introLabel {
+    -fx-font: 90px SansSerifBold;
+    -fx-font-weight: bold;
+    -fx-text-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 0%, purple 50%);
+}
+
+#timeText {
+    -fx-font: 20px SansSerifBold;
+    -fx-font-weight: bold;
+    -fx-fill: white;
+}
+
+.planetLabel {
+    -fx-text-fill: white;
+    -fx-font: 20px SansSerifBold;
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-font: 22px SansSerifBold;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color: #3b5998;
+    -fx-background-radius: 50;
+}
+
+.button:hover {
+    -fx-font: 22px SansSerifBold;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color: #11ace7;
+}
+
+.root {
+    -fx-background-image:url('space.jpg');
+    /*-fx-background-color: black;*/
+}
+
+.landerBackground {
+    -fx-background-image: url('LanderBackground.png');
+}
+
+
+.sun {
+    -fx-fill: #ebc728;
+}
+
+.earth {
+    -fx-fill: #1c7de6;
+}
+
+.mercury {
+    -fx-fill: brown;
+}
+
+.venus {
+    -fx-fill: white;
+}
+
+.moon {
+    -fx-fill: yellow;
+}
+
+.mars {
+    -fx-fill: #998e5f;
+}
+
+.jupiter {
+    -fx-fill: #e3a354;
+}
+
+.saturn {
+    -fx-fill: #4b7544;
+}
+
+.titan {
+    -fx-fill: #42d4f5;
+}
+
+.probe {
+    -fx-fill: orange;
+}
+
+.neptune {
+    -fx-fill: #284975;
+}
+
+.uranus {
+    -fx-fill: #28f75b;
+}
